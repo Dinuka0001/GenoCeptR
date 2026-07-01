@@ -1,0 +1,36 @@
+Title: GenoCeptR
+Version: 3.0.0
+Authors@R: person("Dinuka", "Adasooriya", role = c("aut", "cre"), email = "dinuka90@yuhs.ac")
+Description: Interactive Shiny application for gene expression overlap analysis
+    (Venn, Euler, UpSet, Edwards diagrams), overlap/gene list summaries, and
+    gprofiler2-based pathway enrichment analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    shiny,
+    bslib,
+    shinyjs,
+    colourpicker,
+    VennDiagram,
+    ggvenn,
+    dplyr,
+    DT,
+    shinyWidgets,
+    readxl,
+    openxlsx,
+    tools,
+    grid,
+    UpSetR,
+    eulerr,
+    ggplot2,
+    showtext,
+    ggVennDiagram,
+    plotly,
+    htmlwidgets
+Suggests:
+    gprofiler2,
+    ggdendro,
+    visNetwork,
+    igraph,
+    scales,
+    rmarkdown

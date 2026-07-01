@@ -1,0 +1,19 @@
+# R
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+
+# Shiny logs
+shiny_stdout.log
+shiny_stderr.log
+*.log
+
+# OS / editor cruft
+nul
+.DS_Store
+Thumbs.db
+
+# Session/output artifacts
+/rsconnect/
+*.Rout

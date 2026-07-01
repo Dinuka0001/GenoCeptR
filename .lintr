@@ -1,0 +1,9 @@
+linters: linters_with_defaults(
+    object_usage_linter = NULL,
+    line_length_linter(120)
+  )
+exclusions: list(
+    "www" = 1,
+    "Backup" = 1,
+    "Logo" = 1
+  )
